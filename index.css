@@ -1,0 +1,641 @@
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+   transition: 0.5s;
+   font-family: "Century Gothic", sans-serif;
+}
+/* -------------Navbar css code-------------- */
+.navlist{
+   width: 100%;
+   height:50px;
+   position: fixed;
+   padding: 5px 10%;
+   background-color: #110e2bbb;
+   z-index: 100;;
+}
+.navlist ul{
+   display: flex;
+   padding-top: 10px;
+   list-style: none;
+}
+.navlist ul li:first-child{
+   flex: 1;
+   color: #ffffff;
+}
+.navlist ul li h2{
+   font-family: serif;
+}
+.navlist ul a{
+   display: block;
+   margin-left: 20px;
+   font-family: "Century Gothic", sans-serif;
+   font-size: 1.2rem;
+   color: white;
+   text-decoration: none;
+}
+.navlist ul a:hover{
+   color: #ff8800;
+}
+
+/* ------------main header css start from here------- */
+
+.main-box{
+   
+   width: 100%;
+   height: 100vh;
+   background-image: linear-gradient(#000000bb, #000000bb), url('image/college.jpg');
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   color: #ffffff;
+   text-align: center;
+   padding-top: 30vh;
+}
+
+.main-box h1{
+   word-spacing: 8px;
+   margin-bottom: 15px;
+   font-family: serif;
+}
+.main-box p{
+   font-family: "Century Gothic", sans-serif;
+   font-size: 14px;
+   letter-spacing: 1.4px;
+   margin-bottom: 40px;
+}
+.main-box button{
+   padding: 10px;
+   border: none;
+   outline: none;
+   background: none;
+   border: 1px solid #ff8800;
+   color: #ffffff;
+}
+.container h2{
+   color: #ff8800;
+   text-align: center;
+   margin: 30px;
+   font-family: 'Arial Narrow Bold', sans-serif;
+   letter-spacing: 5px;
+}
+.container h2::before, .container h2::after{
+   content: "-----";
+   letter-spacing: -5px;
+   font-weight: lighter;
+   margin: 0 20px 0 10px;
+}
+.main-box button:hover{
+   background: #ff8800;
+}
+
+
+
+
+
+
+/* -------------Event,course,highlight css code from here */
+
+
+
+
+#center {
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 12px;
+   
+ margin:50px auto;
+   width: 86.1%;
+   display: flex;
+   justify-content: space-between;
+
+
+
+
+
+
+}
+
+#one {
+   display: flex;
+   flex-direction: column;
+   
+   width: 28%;
+  
+}
+
+#one a {
+   text-decoration: none;
+   font-weight: 700;
+   color: #283B66;
+
+
+}
+
+#one p {
+
+   font-size: 13px;
+   padding: 2.5% 5%;
+   margin: 0px;
+}
+
+#one h1 {
+   font-size: 16px;
+   padding: 2.5%;
+   background:#ff8800c0;
+   color: #FFFFFF;
+   font-weight: 400;
+}
+
+
+
+.date {
+   font-family: Georgia, "Times New Roman", Times, serif;
+   height: 50px;
+   width: 70px;
+   background: #f99a2ebc;
+   display: block;
+   margin: 2.5%;
+   padding-left: 14px;
+   border-radius: 10px;
+   color: #FFFFFF;
+   float: left;
+   font-size: 16px;
+}
+
+.day em {
+   font-size: 20px;
+   text-align: left;
+   display: block;
+}
+
+.rightside {
+   width: 68%;
+   float: right;
+}
+
+.rightside a {
+   text-decoration: none;
+   color: #283B66;
+   font-weight: 700;
+}
+
+/* -----------Faculty code css start from here------------ */
+
+
+.container{
+   width: 80%;
+   margin: auto;
+ 
+   
+}
+
+.container .row{
+   display: flex;
+   justify-content: space-between;
+}
+.container .column{
+   width: 32%;
+   height: auto;
+   position: relative;
+   overflow: hidden;
+}
+.container .column img{
+   width: 100%;
+   height: auto;
+}
+.container .column a:last-child{
+   position: absolute;
+   display: block;
+   width: 100%;
+   height: 0;
+   top: 99%;
+   bottom: 0;
+   left: 0;
+   bottom: 0;
+   background-color: #ff8800c0;
+   text-align: center;
+   padding-top: 14vw;
+   font-size: 3vw;
+   color: #ffffff;
+   text-decoration: none;
+}
+.container .column:hover a:last-child{
+   height: 100%;
+   top: 0;
+}
+
+
+/* --------------Facilities csscode start from here --------------*/
+
+.facilities h2{
+   color: #ff8800;
+   text-align: center;
+   margin: 30px;
+   font-family: 'Arial Narrow Bold', sans-serif;
+   letter-spacing: 5px;
+}
+.facilities h2::before, .facilities h2::after{
+   content: "-----";
+   letter-spacing: -5px;
+   font-weight: lighter;
+   margin: 0 20px 0 10px;
+}
+.main-box button:hover{
+   background: #ff8800;
+}
+
+.facilities{
+   width: 90%;
+   margin: auto;
+   margin-bottom:90px;
+   margin-top:80px;
+   
+}
+
+.facilities .row{
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+}
+.facilities .column{
+   width: 23%;
+   height: 250px;
+   position: relative;
+   overflow: hidden;
+}
+.facilities .column img{
+   width: 100%;
+   height: 100%;
+}
+.facilities .column a:last-child{
+   position: absolute;
+   display: block;
+   width: 100%;
+   height: 0;
+   top: 99%;
+   bottom: 0;
+   left: 0;
+   bottom: 0;
+   background-color: #ff8800c0;
+   text-align: center;
+   padding-top: 10vw;
+   font-size: 3vw;
+   color: #ffffff;
+   text-decoration: none;
+}
+.facilities .column:hover a:last-child{
+   height: 100%;
+   top: 0;
+}
+
+
+
+/* ----------- campus tour css ----------- */
+
+
+.video{
+   margin:0 auto;
+   width:77%;
+ 
+   overflow:hidden;
+   padding-bottom:36.25%;
+   position:relative;
+   height:0;
+   }
+.video iframe{
+   left:0;
+   top:0;
+   height:100%;
+   width:100%;
+   position:absolute;
+ }
+
+
+
+
+/* ---------------contact form css code start from here----------- */
+
+.content h2{
+   color: #ff8800;
+   text-align: center;
+   margin: 30px;
+   font-family: 'Arial Narrow Bold', sans-serif;
+   letter-spacing: 5px;
+}
+.content h2::before, .content h2::after{
+   content: "-----";
+   letter-spacing: -5px;
+   font-weight: lighter;
+   margin: 0 20px 0 10px;
+}
+
+.content {
+	top: 40px;
+	height: calc(100vh - 60px);
+	width: 100vw;
+	display: flex;
+   flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	overflow: auto;
+	padding: 20px;
+   margin-top:30px;
+ 
+}
+
+.contact {
+	width: 80%;
+ 
+	max-width: 1080px;
+	display: flex;
+	box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.28);
+	border-radius: 5px;
+
+}
+
+.other {
+	width: 60%;
+	background-image: url(https://images.unsplash.com/photo-1485119584289-30ca2b38c67e?dpr=1&auto=format&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb&crop=);
+	background-size: cover;
+	background-position: center;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+   clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+
+}
+
+.other:before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background: linear-gradient(45deg, rgb(36, 51, 66), rgba(36, 51, 66, 0.81));
+   clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+
+}
+
+.content a,button {
+	display: inline-block;
+	padding: 14px 30px;
+	text-decoration: none;
+	color: #243342;
+	letter-spacing: 1.2px;
+	font-size: 14px;
+	border: 1px solid #243342;
+	border-radius: 7px;
+	margin-right: 20px;
+	transition: 0.15s ease-in-out;
+}
+.content a.focus,button {
+	color: white;
+	background: #243342;
+}
+.content a.focus:hover,button:hover {
+	cursor: pointer;
+	color: #1bf1dc;
+}
+.content a:hover {
+	background-color: #243342;
+	color: #16f1d7;
+}
+
+.content a.active {
+	color: #16f1dc;
+	font-weight: 500;
+}
+
+
+.form {
+	width: 40%;
+	background-color: white;
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+}
+.form h1 {
+	text-align: center;
+	margin-bottom: 20px;
+	width: 100%;
+}
+.form form {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+}
+.flex-rev {
+	display: flex;
+	flex-direction: column-reverse;
+	margin-bottom: 10px;
+	width: 100%;
+}
+
+.flex-rev input,
+.flex-rev textarea {
+	border: none;
+	background-color: #e6e6e6;
+	padding: 12px 10px;
+	font-size: 16px;
+	resize: none;
+	margin-top: 7px;
+	margin-bottom: 16px;
+	border-radius: 5px;
+	color: #243342;
+	outline-color: #243342;
+	outline-width: thin;
+	-webkit-appearance: none;
+}
+.flex-rev textarea {
+	height: 150px;
+}
+button {
+	-webkit-appearance: none;
+	margin-right: 0;
+}
+
+.info {
+	position: relative;
+	padding: 20px;
+}
+
+
+
+.info h2 {
+	color:#16f1dc;
+	font-size: 34px;
+}
+
+.info h3 {
+	color: white;
+	letter-spacing: 1.2px;
+	margin-top: 20px;
+}
+
+.social-wrap {
+	display: flex;
+	margin-top: 14px;
+}
+
+.social-wrap a {
+	border: 0;
+	padding: 0;
+	display: flex;
+	color: #bbbbbb;
+	font-size: 16px;
+	justify-content: center;
+	align-items: center;
+	font-style: italic;
+}
+
+.social-wrap a svg {
+	width: 20px;
+	height: 20px;
+	fill: white;
+	transition: fill 0.2s ease-in-out;
+	margin-right: 13px;
+}
+
+.social-wrap a:hover svg {
+	fill: #16f1dc;
+	cursor: pointer;
+}
+
+.social-wrap a:hover {
+	background-color: transparent;
+	color: #16f1dc;
+	cursor: pointer;
+}
+
+
+
+/* -------------------footer css code start from here----------------- */
+
+#footer {
+
+   background: #FFFFFF;
+   width: 100%;
+ 
+   height: 200px;
+}
+
+
+#footer-header{
+   width:100%;
+   color:#ffffff;
+   padding:3px 10px;
+   height:36px;
+   background-color: #ff8800c0;
+   margin-bottom: 30px;
+   font-size: 1.3rem;
+}
+#m img {
+   margin-left: 40px;
+}
+
+
+
+
+
+
+/* -------------------Responsive css code start from here----------------- */
+
+@media screen and (max-width: 900px) {
+	.content {
+		padding: 10px 0 0;
+		display: block;
+	}
+	
+	.contact {
+		width: 100%;
+		flex-direction: column-reverse;
+		border-radius: 0;
+		box-shadow: 0px 0px 0px 0px;
+	}
+	.other {
+		width: 100%;
+		padding: 20px 0;
+	}
+	.form {
+		width: 100%;
+	}
+   #center{
+      width:70%;
+      flex-direction: column;
+      justify-content: space-around;
+   }
+   #one{
+      width:auto;
+   }
+   .facilities{
+      width:700px;
+      height: auto;
+      
+   }
+   .facilities .row{
+      flex-wrap: wrap;
+      justify-content: space-around;
+   }
+   .facilities .column{
+      width:300px;
+   }
+   .navlist h2, .navlist ul li a{
+      font-size: 20px;
+   }
+   #footer{
+      margin-top: 30px;
+   }
+   .other {
+     
+      clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
+   }
+   
+   .other:before {
+      
+      clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
+   
+   }
+}
+
+
+@media screen and (max-width: 600px){
+   .facilities{
+      width:100%;
+   }
+   .facilities .column{
+    margin:20px auto;
+      
+   }
+   .facilities .row{
+      flex-direction: column;
+    
+   }
+   .navlist h2, .navlist ul li a{
+      font-size: 14px;
+   }
+   #center{
+      width:90%;
+   }
+}
+
+
+@media screen and (max-width: 450px){
+   .container{
+      width:100%;
+   }
+   .container .row{
+      flex-direction: column;
+   }
+   .container .column{
+      width:40%;
+      margin:20px auto;
+        
+   }
+   #center{
+      width:100%;
+   }
+}
